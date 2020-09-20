@@ -90,10 +90,6 @@ class MonApp(Tk):
                     st = " ".join(f)
                     os.system("start chrome google.com/search?q={}".format(st))
 
-                elif a == "play any song":
-                    # *not working
-                    os.system("Kodana-Kodi.mp3")
-
                 elif a == "what is today's date":
                     today = date.today()
                     print("Today's date:", today)
